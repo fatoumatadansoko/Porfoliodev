@@ -8,7 +8,7 @@ html
 }
 :root
 {
-    --main-color:#00a78e;
+    --main-color:#000080ff;
     --shadow-black-100:0 5px 15px rgba(0,0,0,0.2);
     --black-900:#000;
     --black-400:#646f87;
@@ -76,7 +76,7 @@ img
 .btn-1:hover
 {
     color: var(--white);
-    background-color: rgba(0,167,142,0.7);
+    background-color: rgba(119, 141, 215, 0.7);
 }
 
 .btn-2
@@ -412,6 +412,8 @@ img
 .about-section .about-content p
 {
     text-align: justify;
+    margin-bottom: 50px;
+
 }
 .skill-item .skill-header
 {
@@ -1080,11 +1082,12 @@ footer .copyright-text
     }
     .home-image .img-box
     {
-        margin-top: 30px;
+        margin-top: 0px;
     }
     .about-section .about-image
     {
         display: none;
+        
     }
     .about-section .about-content
     {
